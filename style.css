@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #0B132B; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+html, body {background: #3c3c3c; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
 
 .clear {clear: both;}
 
@@ -19,7 +19,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #709CD1;
+	color: #000000;
 }
 
 #cv {
@@ -32,7 +32,7 @@ p {
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #5BC0BE;
-	background: #3A506B;
+	background: #ffffff;
 }
 
 #name h1 {
@@ -81,11 +81,11 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #0B132B;
+	color: #000000;
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #0B132B; 
+	color: #000000; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -95,12 +95,12 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #6FFFE9;
+	color: #009688;
 }
 
 
 section {
-	border-top: 1px solid #5BC0BE;
+	border-top: 1px solid #000000;
 	padding: 20px 0 0;
 }
 
@@ -126,7 +126,7 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #6FFFE9;
+	color: #009688;
 }
 
 .sectionTitle img {
@@ -147,7 +147,7 @@ section:last-child {
 }
 
 .sectionContent img {
-	border: 2px solid #50AAA9;
+	border: 2px solid #000000;
 }
 
 .subDetails {
